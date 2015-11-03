@@ -9,7 +9,7 @@ GTEST_HEADERS = $(GTEST_DIR)/include/gtest/*.h \
 CPPFLAGS += -isystem $(GTEST_DIR)/include
 #
 # # Flags passed to the C++ compiler.
-CXXFLAGS += -g -Wall -Wextra -std=c++14 -pthread
+CXXFLAGS += -g -Wall -Wextra -std=c++11 -pthread
 
 CXX := clang++
 SRCDIR := src

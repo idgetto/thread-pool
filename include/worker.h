@@ -8,7 +8,6 @@
 
 using std::unique_ptr;
 using std::thread;
-using std::make_unique;
 
 class Worker {
     public:
